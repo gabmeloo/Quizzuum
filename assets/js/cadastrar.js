@@ -1,5 +1,6 @@
 // => = função
 document.querySelector("#botao-cadastrar").addEventListener("click", () => {
-    console.log("cadastrar")
+    const titulo = document.querySelector("#titulo").value
+    console.log(titulo)
 })
 
