@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src= "./assets/js/carregar.js"></script>
+    <script src= "./assets/js/apagar.js" defer></script>
+    <script src= "./assets/js/concluir.js" defer></script>
+    <script src= "./assets/js/dashboard.js" defer></script>
+    <title>Quizzuum</title>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-wrapper black">
+          <a href="#" class="brand-logo">
+            <img src="./imagens/quizzuumLogo2.png" width="125">
+          </a>         
+          <ul id="nav-mobile" class="right hide-on-med-and-down">           
+            <li class="active"><a href="/">Desafios</a></li>
+            <li><a href="cadastrar.html">Crie um desafio</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <main class="container">
+
+        <div class="row">
+          <div class="col s12 m6 l3">
+            <div class="card-panel center black white-text">
+             <h3 id = "qtde-pendente">0</h3>
+             <span>Desafios pendentes</span>
+            </div>
+          </div>
+          <div class="col s12 m6 l3">
+            <div class="card-panel center white black-text">
+             <h3 id = "qtde-concluida">0</h3>
+             <span>Desafios concluídos</span>
+            </div>
+          </div>
+          <div class="col s12 m6 l3">
+            <div class="card-panel center black white-text">
+             <h3 id = "total-pontos">0</h3>
+             <span>Pontuação máxima</span>
+            </div>
+          </div>
+          <div class="col s12 m6 l3"></div>
+            <div class="card-panel center white black-text">
+              <h3 id = "meus-pontos">0</h3>
+              <span>Pontuação</span>
+            </div>
+          </div>
+        </div>
+          
+
+        <h4>Na adversidade, alguns desistem, enquanto outros batem recordes.</h4>
+        <h5>- Ayrton Senna</h5>
+
+        <div class="col s12 m6 l3" class="row" id="lista-tarefas">
+        </div>                     
+      </main>
+
+
+          <div class="fixed-action-btn">
+            <a href="cadastrar.html" class="btn-floating btn-large red">
+              <i class="large material-icons">add</i>
+            </a>
+          </div>
+       
+</body>
+</html>
